@@ -9,7 +9,7 @@ def sniff(interface):
 def process_sniffed_packet(packet):
     """Process sniffed packets"""
     if packet.haslayer(http.HTTPRequest):
-        #print(packet[http.HTTPRequest].Host)
-        print(packet)
+        print(packet[http.HTTPRequest].Host)
+        print(packet.show())
 
-sniff("enp3s0")
+sniff("wlan0")
