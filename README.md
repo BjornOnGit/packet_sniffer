@@ -31,13 +31,13 @@ cd packet_sniffer
 If you're on a linux/debian based OS, you need to run the program as root to be able to sniff packets. You can do so by using the following command:
 
 ``` bash
-sudo python3 packet_sniffer.py
+sudo python3 sniffer.py
 ```
 
 If you're on a windows OS, you can run the program as an admin to be able to sniff packets. You can do so by using the following command:
 
 ``` bash
-python3 packet_sniffer.py
+python3 sniffer.py
 ```
 
 If you're unsure about your interface name, you can use the following command to list all the available interfaces:
